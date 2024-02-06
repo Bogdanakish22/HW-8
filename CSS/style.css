@@ -1,0 +1,58 @@
+h3:first-child {
+    color: pink
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box div p {
+    color: red;
+}
+
+div p:nth-of-type(3) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+.day {
+    color: pink;
+    font-size: 23px;
+}
+
+.lesson {
+    color: darkviolet;
+}
+
+.table-cell {
+    color: rgb(225, 119, 154);
+}
+.table-cell:hover {
+        color: lightgray;
+    }
+.lesson:hover {
+        color: black;
+    }
+.day:hover {
+        color: darkseagreen;
+    }
